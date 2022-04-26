@@ -1,1 +1,2 @@
 Hello WOrld. This is an example of editing in CLI
+This is a new feature 
