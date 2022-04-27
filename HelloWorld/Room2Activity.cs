@@ -13,6 +13,7 @@ while (repeat)
     {
         while (repeat)
         {
+            Console.WriteLine("Choose your items, then checkout.");
             Console.WriteLine("1. Bread");
             Console.WriteLine("2. Cheese");
             Console.WriteLine("3. Milk");
