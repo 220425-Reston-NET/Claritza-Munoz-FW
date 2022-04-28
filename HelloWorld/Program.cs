@@ -69,13 +69,17 @@ while(repeat)
     string answer = Console.ReadLine();
     if (answer == "1")
     {
-            dataobj.AddItem();
+        dataobj.AddItem();
     }
-    // else if ()
-    // {
-
-    // }
-    else if(answer =="3")
+    else if (answer == "2")
+    {
+        dataobj.RemoveItem();
+    }
+    else if (answer == "3")
+    {
+        dataobj.ViewItems();
+    }
+    else if(answer =="4")
     {
         Console.WriteLine("Your total is $" + dataobj.Total());
         repeat = false;
