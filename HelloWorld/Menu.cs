@@ -14,6 +14,7 @@ public class Menu
     {
         get{return _total;}
         set{_total = value;}
+        
     }
 
     public Menu()
