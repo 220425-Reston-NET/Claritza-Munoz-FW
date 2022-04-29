@@ -79,7 +79,11 @@ while(repeat)
     {
         dataobj.ViewItems();
     }
-    else if(answer =="4")
+    else if(answer == "4")
+    {
+        dataobj.Search();
+    }
+    else if(answer =="5")
     {
         Console.WriteLine("Your total is $" + dataobj.Total());
         repeat = false;
